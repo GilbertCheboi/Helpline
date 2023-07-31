@@ -1,0 +1,75 @@
+https://github.com/APSL/react-native-version-number/issues/26
+
+Patch push
+node_modules/react-native-push-notification/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNPushNotificationHelper.java
+
+
+React native navigation back arrow missing on iOS 14
+----------------------------------------------------
+
+https://stackoverflow.com/questions/64116871/react-native-navigation-back-arrow-missing-on-ios-14
+On old react patch node_modules/react-native/Libraries/Image/RCTUIImageViewAnimated.m
+
+Tag iOS 2.1.6
+
+Replace
+
+- (void)displayLayer:(CALayer *)layer
+{
+  if (_currentFrame) {
+    layer.contentsScale = self.animatedImageScale;
+    layer.contents = (__bridge id)_currentFrame.CGImage;
+  }
+}
+with
+
+- (void)displayLayer:(CALayer *)layer
+{
+  if (_currentFrame) {
+    layer.contentsScale = self.animatedImageScale;
+    layer.contents = (__bridge id)_currentFrame.CGImage;
+  } else {
+    [super displayLayer:layer];
+  }
+}
+
+
+Tag iOS 2.8.2
+
+After installing QR code scanner, and running pod install Pod.lock has these Permissions commented out!?
+
+-  pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary"
+-  pod 'Permission-MediaLibrary', :path => "#{permissions_path}/MediaLibrary"
++#  pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary"
++#  pod 'Permission-MediaLibrary', :path => "#{permissions_path}/MediaLibrary"
+
+
+Building on Android after Nov 22, 2022 - react native issue
+
+https://github.com/facebook/react-native/issues/35210
+
+
+Install image-picker 4.0.0
+---------------------------
+
+https://github.com/react-native-image-picker/react-native-image-picker/issues/1688
+
+hunk ./android/app/build.gradle 217
++    implementation project(':react-native-image-picker')
+
+
+hunk ./android/settings.gradle 6
++include ':react-native-image-picker'
++project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
++
+
+
+-- receving intent on android
+
+Attempt to invoke virtual method 'java.lang.String android.content.Intent.getAction()' on a null object reference
+https://github.com/ajith-ab/react-native-receive-sharing-intent/issues/110
+
+
+handle download negative codes on iOS downloads
+https://github.com/EkoLabs/react-native-background-downloader/pull/82/commits/6da2343e93c18dcbfadf9fc9b5ca331a02d236e9
+

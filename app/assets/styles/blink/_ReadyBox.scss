@@ -1,0 +1,214 @@
+@import './variables';
+
+.container {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.historyLandscapeContainer {
+    margin-top: 0px;
+    width: 100%;
+    flex: 9;
+}
+
+.historyPortraitContainer {
+    width: 100%;
+    flex: 9;
+}
+
+.landscapeTitle {
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.portraitTitle {
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.landscapeTabletTitle {
+    margin-top: 20px;
+    color: white;
+    font-size: 24px;
+    width: 100%;
+    margin-left: 3px;
+}
+
+.portraitTabletTitle {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.portraitUriButtonGroup {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0%;
+}
+
+.landscapeUriButtonGroup {
+    flex-direction: row;
+    width: 100%;
+    margin-left: 2px;
+    justify-content: space-between;
+}
+
+.portraitTabletUriButtonGroup {
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.landscapeTabletUriButtonGroup {
+    flex-direction: row;
+    width: 100%;
+    margin-left: 0%;
+    justify-content: space-between;
+}
+
+.portraitUriInputBox {
+    align: left;
+    width: 100%;
+}
+
+.landscapeUriInputBox {
+    align: left;
+    flex: 1;
+    padding: 0px;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.landscapeTabletUriInputBox {
+    align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 66%;
+    margin-left: 1px;
+}
+
+.landscapeButtonGroup {
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+}
+
+.portraitTabletUriInputBox {
+    align: left;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.uriInputBox {
+    align: left;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.buttonGroup {
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.buttonContainer {
+    justifyContent: center;
+    alignItems: center;
+    flex: 1;
+    border: 0px;
+}
+
+.roundshape {
+    height: 48; //any of height
+    width: 48; //any of width
+    justifyContent: center;
+    borderRadius: 24px;
+}
+
+.greenButton {
+    background-color: rgba(#6DAA63, .9);
+}
+
+.disabledGreenButton {
+    background-color: rgba(#395936, .9);
+}
+
+.blueButton {
+    background-color: rgba(#4572a6, 1);
+}
+
+.disabledBlueButton {
+    background-color: rgba(#2E4C6F, 1);
+}
+
+.greenButtoniOS {
+    padding-top: 4px;
+    background-color: rgba(#6DAA63, .9);
+}
+
+.disabledGreenButtoniOS {
+    padding-top: 4px;
+    background-color: rgba(#395936, .9);
+}
+
+.blueButtoniOS {
+    padding-top: 4px;
+    background-color: rgba(#4572a6, 1);
+}
+
+.disabledBlueButtoniOS {
+    padding-top: 4px;
+    background-color: rgba(#2E4C6F, 1);
+}
+
+.footer {
+    flex: 1;
+    justify-content: flex-end;
+    padding-bottom: 0px;
+}
+
+.backButton {
+    justifyContent: center;
+    alignItems: center;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 1px;
+}
+
+.navigationContainer {
+}
+
+.navigationButtonGroup {
+    justify-content: center;
+    border: 0px;
+}
+
+.navigationButton {
+}
+
+.navigationButtonSelected {
+    background-color: white;
+}
+
+.qrCodeButton {
+    padding-top: 0px;
+    background-color: white;
+}
+

@@ -1,0 +1,115 @@
+.containerPortrait {
+}
+
+.containerLandscape {
+}
+
+.cardPortraitContainer {
+    margin-top: 0.5px;
+}
+
+.cardLandscapeContainer {
+    flex: 1;
+    margin-left: 1px;
+    margin-top: 1px;
+    border-radius: 2px;
+}
+
+.cardLandscapeTabletContainer {
+    flex: 1;
+    border: 1px;
+    border-radius: 2px;
+}
+
+.cardPortraitTabletContainer {
+    flex: 1;
+    border: 1px;
+    border-radius: 2px;
+}
+
+.rowContent {
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardContent {
+    flex: 1;
+    flex-direction: row;
+}
+
+.title {
+    padding-top:7px;
+    font-size: 18px;
+    line-height: 20px;
+    flex: 1;
+}
+
+.subtitle {
+    font-size:14px;
+    line-height: 20px;
+    flex: 1;
+}
+
+.description {
+    font-size:12px;
+    flex: 1;
+}
+
+.avatarContent {
+    margin-top: 5px;
+}
+
+.gravatar {
+    width: 50px;
+    height: 50px;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 50px;
+}
+
+.mainContent {
+    margin-left: 10px;
+}
+
+.rightContent {
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 10px;
+    align-items: flex-end;
+    border: 0px;
+}
+
+.badgeTextStyle {
+    font-size: 12px;
+}
+
+.badgeContainer {
+    position: absolute;
+    bottom: 10;
+    right: 0;
+    size: 30;
+}
+
+.selectedContact {
+    margin-top: 15px;
+}
+
+.participants {
+    margin-top: 10px;
+}
+
+.participant {
+    font-size: 14px;
+}
+
+.buttonContainer {
+    margin: 0 auto;
+    margin-top:auto;
+}
+
+.button {
+    border-radius: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

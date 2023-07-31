@@ -1,0 +1,43 @@
+.container {
+    padding: 10px;
+    margin: 00px;
+}
+
+.title {
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.key {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.domain {
+    margin-left: 12px;
+    font-size: 12px;
+    color: blue;
+    padding-bottom: 10px;
+}
+
+.body {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.button {
+    margin: 10px;
+    width: 120;
+    border: 0.5px;
+    border-radius: 2px;
+}
+
+.buttonRow {
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+

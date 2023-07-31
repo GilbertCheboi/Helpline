@@ -1,0 +1,41 @@
+.container {
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.pincode {
+    font-size: 36px;
+    text-align: center;
+}
+
+.body {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.status {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: blue;
+}
+
+.statusFailed {
+    padding: 10px;
+    font-size: 12px;
+    color: red;
+    text-align: center;
+}
+
+.button {
+    margin: 10px;
+}
+
+.buttonRow {
+    flex-direction: row;
+    justify-content: center;
+}

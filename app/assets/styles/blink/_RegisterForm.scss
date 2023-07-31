@@ -1,0 +1,87 @@
+.landscapeContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.portraitContainer {
+    flex: 1;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.landscapeTabletContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.portaitTabletContainer {
+    flex: 1;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+.loadingText {
+    color: white;
+}
+
+.loadingContainer {
+    padding-top: 55px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    padding: 15px;
+    margin: 0 auto;
+    color: white;
+    font-size: 36px;
+}
+
+.subtitle {
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.row {
+    padding: 0px 0;
+    width: 300;
+    margin: 0 auto;
+}
+
+.buttonRow {
+    flex-direction: row;
+    width: 300;
+    margin: 0 auto;
+}
+
+.button {
+    margin-top: 30px;
+    border-radius: 1px;
+    border: 1px;
+    width: 150;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.input {
+    border-radius: 0px;
+}
+
+.recoverLink {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}

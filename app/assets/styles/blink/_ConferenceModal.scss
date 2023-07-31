@@ -1,0 +1,92 @@
+.container {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inviteTitle {
+    font-size: 24px;
+    text-align: left;
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.roomContainer {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    zIndex: -1;
+}
+
+.room {
+    font-size: 16px;
+}
+
+.roomUrl {
+    font-size: 14px;
+    text-align: center;
+}
+
+.roomUrlContainer {
+}
+
+.roomDescription {
+    font-size: 14px;
+    text-align: center;
+}
+
+.chipsContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.chipTextStyle {
+    color: black;
+}
+
+.chips {
+}
+
+.chip {
+    border: 0.25px;
+    background-color: white;
+}
+
+.roomDescriptionContainer {
+    margin: 10px;
+}
+
+.buttonRow {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    zIndex: -1;
+}
+
+.buttonRowInvite {
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.shareText {
+    margin-top: 10px;
+    padding: 3px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.iconContainer {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    margin: 10px;
+}
+

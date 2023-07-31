@@ -1,0 +1,126 @@
+.container {
+    flex: 1;
+}
+
+.remoteVideoContainer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.reconnectContainer {
+    margin-top: 150px;
+}
+
+.localVideoContainer {
+    justify-content: flex-end;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.localVideo {
+    position: absolute;
+    height: 80px;
+    width: 100px;
+    object-fit: cover;
+    background-color: white;
+    top: 10;
+    left: 10;
+    border-radius: 10px;
+}
+
+.portraitButtonContainer {
+    justify-self: flex-end;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top:auto;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.landscapeButtonContainer {
+    flex-direction: row;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+.tabletPortraitButtonContainer {
+    flex-direction: row;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    bottom: 60;
+}
+
+.tabletLandscapeButtonContainer {
+    flex-direction: row;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    bottom: 60;
+}
+
+.buttonContainer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.buttonContainer {
+    justifyContent: center;
+    alignItems: center;
+    flex: 1;
+    border: 0px;
+}
+
+.roundshape {
+    height: 48; //any of height
+    width: 48; //any of width
+    justifyContent: center;
+    borderRadius: 24px;
+}
+
+.whiteButton {
+    background-color: white;
+}
+
+.disabledWhiteButton {
+    background-color: rgba(#395936, .9);
+}
+
+.greenButton {
+    background-color: rgba(#6DAA63, .9);
+}
+
+.disabledGreenButton {
+    background-color: rgba(#395936, .9);
+}
+
+.button {
+    background-color: rgba(#F9F9F9, .7);
+    margin: 10px;
+    padding-top: 5px;
+}
+
+.iosButton {
+    padding-top: 4px;
+    background-color: rgba(#F9F9F9, .7);
+    margin: 10px;
+}
+
+.androidButton {
+    padding-top: 1px;
+    background-color: rgba(#F9F9F9, .7);
+    margin: 10px;
+}
+
+.hangupButton {
+    background-color: rgba(#a94442, .5);
+}
+

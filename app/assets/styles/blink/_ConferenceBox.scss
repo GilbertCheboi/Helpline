@@ -1,0 +1,243 @@
+.container {
+    flex: 1;
+}
+
+.roundshape {
+    height: 48; //any of height
+    width: 48; //any of width
+    justifyContent: center;
+    borderRadius: 24px;
+}
+
+.whiteButton {
+    background-color: white;
+}
+
+.disabledWhiteButton {
+    background-color: rgba(#395936, .9);
+}
+
+.greenButton {
+    background-color: rgba(#6DAA63, .9);
+}
+
+.disabledGreenButton {
+    background-color: rgba(#395936, .9);
+}
+
+.hangupButton {
+    background-color: rgba(#a94442, .8);
+}
+
+.buttonsContainer {
+    flex-direction: row;
+    justify-content: center;
+    height: 55;
+    border: 0px;
+}
+
+.hangupButtonAudioContainer {
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 15px;
+    height: 55;
+    border: 0px;
+}
+
+.hangupButtonVideoContainer {
+    margin-top: 15px;
+}
+
+.hangupButtonVideoContainerLandscape {
+    margin-right: 15px;
+}
+
+.conferenceContainerLandscape {
+    flex-direction: row;
+    align-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.audioContainerLandscape {
+    align-content: flex-start;
+    margin-top: 55px;
+    margin-left: 0px;
+    margin-right: 5px;
+    width: 50%;
+    border: 0px;
+}
+
+.chatContainerLandscapeAudio {
+    margin-top: 60px;
+    margin-right: 0px;
+    margin-left: 5px;
+    border-color: grey;
+    border-radius: 5px;
+    width: 49%;
+    border: 0px;
+}
+
+.chatContainerLandscape {
+    margin-top: 65px;
+    width: 400px;
+}
+
+.slider {
+   height: 30px;
+   justify-content: center;
+}
+
+.dotsContainer {
+   height: 8px;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.dots {
+    margin-top: -19px;
+    margin-right: 0px;
+}
+
+.dotsiOS {
+    margin-top: -17px;
+    margin-right: 0px;
+}
+
+.audioContainerPortrait {
+    border: 0.5px;
+}
+
+.chatContainerPortraitAudio {
+align-content: flex-end;
+}
+
+.chatContainerPortrait {
+    flex: 1;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.conferenceContainer {
+    flex-direction: column;
+    align-content: flex-start;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.videosContainer {
+    flex: 1;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.carouselContainer {
+    position: absolute;
+    bottom: 10;
+    left: 10;
+    right: 10;
+}
+
+.landscapeVideosContainer {
+    flex-direction: row;
+}
+
+.downloadContainer {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.switch {
+   padding: 10px;
+}
+
+.uploadProgress {
+    font-size: 14px;
+    color: orange;
+}
+
+.button {
+    background-color: white;
+    margin: 8px;
+}
+
+.iosButton {
+    background-color: white;
+    margin: 8px;
+    padding-top: 4px;
+}
+
+.androidButton {
+    background-color: white;
+    margin: 8px;
+}
+
+.hangupButton {
+    background-color: rgba(#a94442, .8);
+}
+
+.wholePageVideo {
+    width: 100%;
+    height: 100%;
+}
+
+.landscapeDrawer {
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.portraitDrawer {
+    width: 300px;
+}
+
+.chatSendContainer {
+    flex-direction: row;
+}
+
+.chatRightActionsContainer {
+    marginBottom: 15;
+    marginRight: 30;
+    transform: rotateY(180deg);
+    border: 0px;
+}
+
+.chatRightActionsContaineriOS {
+    marginBottom: 5;
+    marginRight: 30;
+    transform: rotateY(180deg);
+    border: 0px;
+}
+
+.chatInsideRightActionsContainer {
+    marginBottom: 0;
+    border: 0px;
+}
+
+.chatSendArrow {
+    marginBottom: 10;
+    marginRight: 10;
+    border: 0px;
+}
+
+.videoContainer {
+    width: 100%;
+}
+
+.audioContainer {
+    width: 100%;
+}
+
+.videoPlayer {
+}
+
+.audioPlayer {
+}

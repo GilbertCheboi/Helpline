@@ -1,0 +1,58 @@
+.container {
+    justifyContent: center;
+    alignItems: center;
+    height: 100%;
+}
+
+.buttonContainer {
+    flex-direction: row;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.button {
+    background-color: rgba(#6DAA63, .9);
+    margin: 15px;
+}
+
+.rejectButton {
+    background-color: rgba(#a94442, .9);
+    margin: 15px;
+}
+
+.dismissButton {
+    background-color: white;
+    margin: 15px;
+    border: 1px;
+}
+
+.userIcon {
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.logo {
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.remoteDisplayName {
+    padding-top: 20px;
+    font-size: 34px;
+    margin: 0px;
+}
+
+.remoteUri {
+    padding-top: 5px;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.notice {
+    font-size: 14px;
+}
+
+.remoteMedia {
+    padding-top: 20px;
+}
